@@ -51,7 +51,7 @@ p{
 #Landing{
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.425)),
-    url("https://i.postimg.cc/cLyYwLhs/edward-howell-vv-Uy1h-WVYEA-unsplash.jpg");
+    url("./assets/pexels-restu.jpg");
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -74,15 +74,21 @@ p{
 }
 
 
+nav{
+
+background-color: #bbb9b5;
+    
+}
+
 /*About Styles*/
 #About{
     min-height: 100vh;
-    background-color: var(--main-color);
-    color: var(--generic-black);
+    background-color: transparent;
+    /* color: var(--generic-black); */
 }
  
 .about-info{
-    max-width: 900px;
+    max-width: 900px; 
     display: flex; 
     justify-content: center;
 }
@@ -103,7 +109,7 @@ p{
 #Menu{
 min-height: 100vh;
 background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)),
-url("https://i.postimg.cc/c48wvnQ9/edward-howell-R8-Ho-Xig87p8-unsplash.jpg");
+url("./assets/pexels-diner.jpg");
 background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -156,7 +162,7 @@ transition: all .2s ease-in-out;
 #Contact{
 min-height: 100vh;
 background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.521)),
-url("https://i.postimg.cc/pLfjZMcK/klara-kulikova-yj-QDn-Oh-GE34-unsplash.jpg");
+url("./assets/pexels-nicole-michalou-6062024.jpg");
 background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
